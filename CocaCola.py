@@ -6,9 +6,11 @@ import heatResistantBeakers
 
 mixtureA = "7X Flavor" * 1mL
 mixtureB = "Water-based Mixture" * 10mL
+sugar = 104g
+carbonatedWater = H2O + CO2
 
 def mix():
-    mix(mixtureA + mixtureB)
+    mix(mixtureA + mixtureB + sugar + carbonatedWater)
     return CocaCola
 
 setHeatResistantBeaker()
